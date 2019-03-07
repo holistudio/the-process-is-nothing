@@ -298,7 +298,7 @@ function draw() {
       if(i>=rows){
         //at the end of the painting, reset the indices
         i=0;
-        layer= layer +1;
+        layer= 0;
         cellC= [cellW/2, cellH/2];
         cellULCorner = [0,0];
       }
