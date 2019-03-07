@@ -80,7 +80,6 @@ function drawNumber(r,c){
 
 function gridReset(){
   background(255);
-  layer = 0;
 
   //draw grid with cyan grid lines, like in Adobe Suite
   drawGrid();
